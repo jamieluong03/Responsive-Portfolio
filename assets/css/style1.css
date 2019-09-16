@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background:url(../images/trees.png);
+    margin:0;
+    height:100%;
+}
+
+header {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:#ffffff;
+    border-color:#cccccc;
+    position:static;
+    margin:-25px auto;
+
+}
+
+#name {    
+    background-color:#4aaaa5;
+    color:white;
+    width:250px;
+    height:90px;
+    text-align: center;
+    margin-left:230px;
+    font-size:30px;
+    line-height:4;
+
+}
+
+
+#links {
+    position:absolute;
+    top:5px;
+    right:250px;
+    font-size:16px;
+}
+
+.wrap {
+    background-color:#ffffff;
+    border-color:#dddddd;
+    width:960px;
+    align-content: center;
+    margin:50px auto;
+    padding:15px;
+    height:auto;
+}
+
+
+img {
+    height:225px;
+    width:300px;
+    float:left;
+    padding-right:30px;
+    padding-bottom:20px;
+}
+
+#about {
+    border-bottom-style: solid;
+    border-color:grey;
+    text-align:left;
+    color:#74d1ca;
+    font-size:30px;
+    height:40px;
+    margin:10px;
+}
+
+
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#777777;
+    text-align: justify;
+    line-height:1.5;
+}
+
+
+footer {
+    background-color:#666666;
+    border-top-width:8px;
+    border-style:solid;
+    border-color:#4aaaa5;
+    height:120px;
+    margin-top:40px;
+}
+
+@media screen and (max-width: 980px) {
+    .wrap {
+        height:60%;
+        width:60%;;
+        margin-left:50px;
+        margin-right:50px;
+        font-size:15px;
+    }
+    
+    #name {
+        height:90px;
+        margin-left:50px;
+    }
+
+    #links {
+        right:15px;
+        
+    }
+
+    header {
+        margin:-15px;
+    }
+
+    #p1 {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrap {
+        height:auto;
+        width:auto;
+        margin-left:50px;
+        margin-right:50px;
+        font-size:2vw;
+    }
+    
+    #name {
+        height:90px;
+        margin-left:50px;
+    }
+
+    #links {
+        right:15px;
+        
+    }
+
+    header {
+        margin:-25px;
+
+    }
+
+    #p1 {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .wrap {
+        width:auto;
+        height:auto;
+        margin-left:50px;
+        margin-right:50px;
+        font-size:2vw;
+    }
+
+    #name {
+        width:auto;
+        height:auto;
+        margin:0px;
+        background-color:white;
+
+    }
+
+    header {
+        background-color:white;
+        margin:-25px auto;
+    
+    }
+
+    #links {
+        position:static;
+        margin:0px;
+        
+    }
+
+    #h2 {
+        background-color:#4aaaa5;
+        color:white;
+        font-size:25px;
+        height:80px;
+    }
+
+    #p1 {
+        font-size:15px;
+        text-align: left;
+    }
+
+    
+
+}
+
+
+

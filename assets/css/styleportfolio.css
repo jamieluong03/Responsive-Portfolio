@@ -1,0 +1,120 @@
+body {
+    background:url(../images/trees.png);
+    margin:0;
+    height:100%;
+}
+
+header {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:#ffffff;
+    border-color:#cccccc;
+    position:static;
+    margin:-25px auto;
+
+}
+
+#name {
+    background-color:#4aaaa5;
+    color:#ffffff;
+    width:250px;
+    height:90px;
+    text-align: center;
+    margin-left:230px;
+    font-size:30px;
+    line-height:4;
+}
+
+#links {
+    position:absolute;
+    top:5px;
+    right:250px;
+    font-size:16px;
+}
+
+.wrap {
+    background-color:#ffffff;
+    border-color:#dddddd;
+    width:960px;
+    align-content: center;
+    margin:70px auto;
+    padding:15px;
+    height:400px;
+    padding-top:10px;
+}
+
+#portfolio {
+    border-bottom-style: solid;
+    border-color:grey;
+    text-align:left;
+    color:#74d1ca;
+    font-size:30px;
+    height:40px;
+}
+
+#daisy {
+    width:200px;
+    height:200px;
+    float:left;
+    position:relative;
+    padding:30px;
+}
+
+#lily {
+    width:200px;
+    height:200px;
+    float:left;
+    position:relative;
+    padding:30px;
+}
+
+#baby {
+    width:200px;
+    height:200px;
+    float:left;
+    position:relative;
+    padding:30px;
+}
+
+#one {
+    background-color:#4aaaa5;
+    color:white;
+    width:200px;
+    position:absolute;
+    left:298px;
+    top:340px;
+    height:40px;
+    text-align: center;
+    line-height:2.5;
+}
+
+#two {
+    background-color:#4aaaa5;
+    color:white;
+    width:200px;
+    position:absolute;
+    height:40px;
+    top:340px;
+    left:558px;
+    text-align: center;
+    line-height:2.5;
+}
+
+#three {
+    background-color:#4aaaa5;
+    color:white;
+    width:200px;
+    position:absolute;
+    height:40px;
+    top:340px;
+    left:818px;
+    text-align:center;
+    line-height:2.5;
+}
+
+footer {
+    background-color:#666666;
+    border-top-width:8px;
+    border-style:solid;
+    border-color:#4aaaa5;
+    height:100px;
+}
